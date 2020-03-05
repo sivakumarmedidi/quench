@@ -3,7 +3,7 @@
 class Messaging {
   constructor({config}) {
     console.log(process.env.MESSAGING_API_KEY);
-    this.msgbrd = require('messagebird')("qH2u4OSx1jmTVWgBBMzS3uAMQ");
+    this.msgbrd = require('messagebird')("");
   }
 
   sendMessage(number, message) {
